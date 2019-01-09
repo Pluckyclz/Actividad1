@@ -21,6 +21,8 @@
 		843557D221E65E700098ECD2 /* PrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843557D121E65E700098ECD2 /* PrincipalViewController.swift */; };
 		843557D421E667BC0098ECD2 /* InfoRecuperarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843557D321E667BC0098ECD2 /* InfoRecuperarViewController.swift */; };
 		843557D621E66B370098ECD2 /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843557D521E66B370098ECD2 /* MapaViewController.swift */; };
+		843557D821E686240098ECD2 /* CobranzaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843557D721E686240098ECD2 /* CobranzaViewController.swift */; };
+		843557DA21E68B4A0098ECD2 /* CobranzaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843557D921E68B4A0098ECD2 /* CobranzaTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		843557D121E65E700098ECD2 /* PrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalViewController.swift; sourceTree = "<group>"; };
 		843557D321E667BC0098ECD2 /* InfoRecuperarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRecuperarViewController.swift; sourceTree = "<group>"; };
 		843557D521E66B370098ECD2 /* MapaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaViewController.swift; sourceTree = "<group>"; };
+		843557D721E686240098ECD2 /* CobranzaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobranzaViewController.swift; sourceTree = "<group>"; };
+		843557D921E68B4A0098ECD2 /* CobranzaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobranzaTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				8435579D21E63A940098ECD2 /* ViewController.swift */,
 				843557CF21E647060098ECD2 /* Extensiones.swift */,
 				8435579F21E63A940098ECD2 /* Main.storyboard */,
+				843557D921E68B4A0098ECD2 /* CobranzaTableViewController.swift */,
+				843557D721E686240098ECD2 /* CobranzaViewController.swift */,
 				843557D521E66B370098ECD2 /* MapaViewController.swift */,
 				843557D321E667BC0098ECD2 /* InfoRecuperarViewController.swift */,
 				843557D121E65E700098ECD2 /* PrincipalViewController.swift */,
@@ -281,6 +287,8 @@
 				843557CE21E642BD0098ECD2 /* Constantes.swift in Sources */,
 				8435579E21E63A940098ECD2 /* ViewController.swift in Sources */,
 				843557CA21E63B550098ECD2 /* RegistroViewController.swift in Sources */,
+				843557DA21E68B4A0098ECD2 /* CobranzaTableViewController.swift in Sources */,
+				843557D821E686240098ECD2 /* CobranzaViewController.swift in Sources */,
 				843557D621E66B370098ECD2 /* MapaViewController.swift in Sources */,
 				843557D021E647060098ECD2 /* Extensiones.swift in Sources */,
 				8435579C21E63A940098ECD2 /* AppDelegate.swift in Sources */,
