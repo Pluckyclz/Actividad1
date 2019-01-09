@@ -14,6 +14,11 @@
 		843557A621E63A950098ECD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843557A421E63A950098ECD2 /* LaunchScreen.storyboard */; };
 		843557B121E63A950098ECD2 /* Actividad1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843557B021E63A950098ECD2 /* Actividad1Tests.swift */; };
 		843557BC21E63A950098ECD2 /* Actividad1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843557BB21E63A950098ECD2 /* Actividad1UITests.swift */; };
+		843557CA21E63B550098ECD2 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843557C921E63B550098ECD2 /* RegistroViewController.swift */; };
+		843557CC21E63D520098ECD2 /* OlvideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843557CB21E63D520098ECD2 /* OlvideViewController.swift */; };
+		843557CE21E642BD0098ECD2 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843557CD21E642BD0098ECD2 /* Constantes.swift */; };
+		843557D021E647060098ECD2 /* Extensiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843557CF21E647060098ECD2 /* Extensiones.swift */; };
+		843557D221E65E700098ECD2 /* PrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843557D121E65E700098ECD2 /* PrincipalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		843557B721E63A950098ECD2 /* Actividad1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Actividad1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843557BB21E63A950098ECD2 /* Actividad1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actividad1UITests.swift; sourceTree = "<group>"; };
 		843557BD21E63A950098ECD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843557C921E63B550098ECD2 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		843557CB21E63D520098ECD2 /* OlvideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OlvideViewController.swift; sourceTree = "<group>"; };
+		843557CD21E642BD0098ECD2 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		843557CF21E647060098ECD2 /* Extensiones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensiones.swift; sourceTree = "<group>"; };
+		843557D121E65E700098ECD2 /* PrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +109,12 @@
 			children = (
 				8435579B21E63A940098ECD2 /* AppDelegate.swift */,
 				8435579D21E63A940098ECD2 /* ViewController.swift */,
+				843557CF21E647060098ECD2 /* Extensiones.swift */,
 				8435579F21E63A940098ECD2 /* Main.storyboard */,
+				843557D121E65E700098ECD2 /* PrincipalViewController.swift */,
+				843557CD21E642BD0098ECD2 /* Constantes.swift */,
+				843557CB21E63D520098ECD2 /* OlvideViewController.swift */,
+				843557C921E63B550098ECD2 /* RegistroViewController.swift */,
 				843557A221E63A950098ECD2 /* Assets.xcassets */,
 				843557A421E63A950098ECD2 /* LaunchScreen.storyboard */,
 				843557A721E63A950098ECD2 /* Info.plist */,
@@ -256,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843557CE21E642BD0098ECD2 /* Constantes.swift in Sources */,
 				8435579E21E63A940098ECD2 /* ViewController.swift in Sources */,
+				843557CA21E63B550098ECD2 /* RegistroViewController.swift in Sources */,
+				843557D021E647060098ECD2 /* Extensiones.swift in Sources */,
 				8435579C21E63A940098ECD2 /* AppDelegate.swift in Sources */,
+				843557D221E65E700098ECD2 /* PrincipalViewController.swift in Sources */,
+				843557CC21E63D520098ECD2 /* OlvideViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
