@@ -19,6 +19,7 @@
 		843557CE21E642BD0098ECD2 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843557CD21E642BD0098ECD2 /* Constantes.swift */; };
 		843557D021E647060098ECD2 /* Extensiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843557CF21E647060098ECD2 /* Extensiones.swift */; };
 		843557D221E65E700098ECD2 /* PrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843557D121E65E700098ECD2 /* PrincipalViewController.swift */; };
+		843557D421E667BC0098ECD2 /* InfoRecuperarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843557D321E667BC0098ECD2 /* InfoRecuperarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		843557CD21E642BD0098ECD2 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 		843557CF21E647060098ECD2 /* Extensiones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensiones.swift; sourceTree = "<group>"; };
 		843557D121E65E700098ECD2 /* PrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalViewController.swift; sourceTree = "<group>"; };
+		843557D321E667BC0098ECD2 /* InfoRecuperarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRecuperarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				8435579D21E63A940098ECD2 /* ViewController.swift */,
 				843557CF21E647060098ECD2 /* Extensiones.swift */,
 				8435579F21E63A940098ECD2 /* Main.storyboard */,
+				843557D321E667BC0098ECD2 /* InfoRecuperarViewController.swift */,
 				843557D121E65E700098ECD2 /* PrincipalViewController.swift */,
 				843557CD21E642BD0098ECD2 /* Constantes.swift */,
 				843557CB21E63D520098ECD2 /* OlvideViewController.swift */,
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843557D421E667BC0098ECD2 /* InfoRecuperarViewController.swift in Sources */,
 				843557CE21E642BD0098ECD2 /* Constantes.swift in Sources */,
 				8435579E21E63A940098ECD2 /* ViewController.swift in Sources */,
 				843557CA21E63B550098ECD2 /* RegistroViewController.swift in Sources */,
