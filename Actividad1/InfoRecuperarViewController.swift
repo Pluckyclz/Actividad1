@@ -10,7 +10,9 @@ import UIKit
 
 class InfoRecuperarViewController: UIViewController {
 
-    var correo:String! = nil
+    var correo:String? = nil
+    
+    @IBOutlet weak var notificacionEnviada: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,7 +20,10 @@ class InfoRecuperarViewController: UIViewController {
         let isEqual = (correo == "test@mail.com")
         
         if isEqual{
-            print("Ingreso : " + correo)
+            
+            self.notificacionEnviada.text = "Contraseña enviada a: \(correo ?? "")"
+            
+            
             /*
             let alert = UIAlertController(title: "Reenvio de contraseña?", message: "Se enviará un correo a \(correo) con las instrucciones para recuperar tu contraseña.", preferredStyle: .alert)
             
@@ -27,7 +32,7 @@ class InfoRecuperarViewController: UIViewController {
             
             self.present(alert, animated: true)*/
         } else {
-            print("No se encontró correo registrado")
+            self.notificacionEnviada.text = "No se encontró correo registrado"
         }
         
         // Do any additional setup after loading the view.

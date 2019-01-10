@@ -7,17 +7,39 @@
 //
 
 import UIKit
+import CoreData
 
 class RegistroViewController: UIViewController {
     
-   
+    @IBOutlet weak var nombreText: UITextField!
+    @IBOutlet weak var contrasenia: UITextField!
+    @IBOutlet weak var repetirContrasenia: UITextField!
+    @IBOutlet weak var email: UITextField!
+    @IBOutlet weak var fecha_nacimiento: UITextField!
+    @IBOutlet weak var numero_empleado: UITextField!
+    @IBOutlet weak var telefono: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func registrarse(_ sender: UIButton) {
+        
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        let context = appDelegate.persistentContainer.viewContext
+        
+        let empleado = Empleado(context: context)
+        empleado.nombre = nombreText.text
+        empleado.pass = contrasenia.text
+        empleado.email = email.text
+        empleado.fecha_nacimiento = fecha_nacimiento.text
+        empleado.numero_empleado = 1
+        empleado.telefono = telefono.text
+        appDelegate.saveContext()
+    }
+    
     /*
     // MARK: - Navigation
 
