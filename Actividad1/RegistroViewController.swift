@@ -38,6 +38,7 @@ class RegistroViewController: UIViewController {
         empleado.numero_empleado = 1
         empleado.telefono = telefono.text
         appDelegate.saveContext()
+        
     }
     
     /*
