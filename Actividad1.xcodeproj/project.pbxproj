@@ -25,6 +25,10 @@
 		843557E021E7900A0098ECD2 /* RutasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843557DF21E7900A0098ECD2 /* RutasViewController.swift */; };
 		843557E321E7AB2E0098ECD2 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 843557E121E7AB2E0098ECD2 /* Model.xcdatamodeld */; };
 		8435582221E7CD5F0098ECD2 /* RegistradosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435582121E7CD5F0098ECD2 /* RegistradosTableViewController.swift */; };
+		8435582421E7D7C40098ECD2 /* EmpleadoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435582321E7D7C40098ECD2 /* EmpleadoCollectionViewCell.swift */; };
+		8435582621E7D9580098ECD2 /* EmpleadoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435582521E7D9580098ECD2 /* EmpleadoTableViewCell.swift */; };
+		8435582821E7E5F20098ECD2 /* Registrado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435582721E7E5F20098ECD2 /* Registrado.swift */; };
+		8435582C21E9124D0098ECD2 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8435582B21E9124D0098ECD2 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +73,10 @@
 		843557DF21E7900A0098ECD2 /* RutasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutasViewController.swift; sourceTree = "<group>"; };
 		843557E221E7AB2E0098ECD2 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		8435582121E7CD5F0098ECD2 /* RegistradosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistradosTableViewController.swift; sourceTree = "<group>"; };
+		8435582321E7D7C40098ECD2 /* EmpleadoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadoCollectionViewCell.swift; sourceTree = "<group>"; };
+		8435582521E7D9580098ECD2 /* EmpleadoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadoTableViewCell.swift; sourceTree = "<group>"; };
+		8435582721E7E5F20098ECD2 /* Registrado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registrado.swift; sourceTree = "<group>"; };
+		8435582B21E9124D0098ECD2 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +107,7 @@
 		8435578F21E63A940098ECD2 = {
 			isa = PBXGroup;
 			children = (
-				8435582121E7CD5F0098ECD2 /* RegistradosTableViewController.swift */,
+				8435582B21E9124D0098ECD2 /* Media.xcassets */,
 				8435579A21E63A940098ECD2 /* Actividad1 */,
 				843557AF21E63A950098ECD2 /* Actividad1Tests */,
 				843557BA21E63A950098ECD2 /* Actividad1UITests */,
@@ -120,6 +128,10 @@
 		8435579A21E63A940098ECD2 /* Actividad1 */ = {
 			isa = PBXGroup;
 			children = (
+				8435582321E7D7C40098ECD2 /* EmpleadoCollectionViewCell.swift */,
+				8435582521E7D9580098ECD2 /* EmpleadoTableViewCell.swift */,
+				8435582121E7CD5F0098ECD2 /* RegistradosTableViewController.swift */,
+				8435582721E7E5F20098ECD2 /* Registrado.swift */,
 				8435579B21E63A940098ECD2 /* AppDelegate.swift */,
 				843557E121E7AB2E0098ECD2 /* Model.xcdatamodeld */,
 				8435579D21E63A940098ECD2 /* ViewController.swift */,
@@ -264,6 +276,7 @@
 			files = (
 				843557A621E63A950098ECD2 /* LaunchScreen.storyboard in Resources */,
 				843557A321E63A950098ECD2 /* Assets.xcassets in Resources */,
+				8435582C21E9124D0098ECD2 /* Media.xcassets in Resources */,
 				843557A121E63A940098ECD2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,15 +306,18 @@
 				843557CE21E642BD0098ECD2 /* Constantes.swift in Sources */,
 				843557E021E7900A0098ECD2 /* RutasViewController.swift in Sources */,
 				8435579E21E63A940098ECD2 /* ViewController.swift in Sources */,
+				8435582421E7D7C40098ECD2 /* EmpleadoCollectionViewCell.swift in Sources */,
 				843557CA21E63B550098ECD2 /* RegistroViewController.swift in Sources */,
 				8435582221E7CD5F0098ECD2 /* RegistradosTableViewController.swift in Sources */,
 				843557D821E686240098ECD2 /* CobranzaViewController.swift in Sources */,
 				843557D621E66B370098ECD2 /* MapaViewController.swift in Sources */,
+				8435582621E7D9580098ECD2 /* EmpleadoTableViewCell.swift in Sources */,
 				843557D021E647060098ECD2 /* Extensiones.swift in Sources */,
 				8435579C21E63A940098ECD2 /* AppDelegate.swift in Sources */,
 				843557D221E65E700098ECD2 /* PrincipalViewController.swift in Sources */,
 				843557CC21E63D520098ECD2 /* OlvideViewController.swift in Sources */,
 				843557E321E7AB2E0098ECD2 /* Model.xcdatamodeld in Sources */,
+				8435582821E7E5F20098ECD2 /* Registrado.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

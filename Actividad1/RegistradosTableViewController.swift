@@ -7,11 +7,16 @@
 //
 
 import UIKit
+import CoreData
 
 class RegistradosTableViewController: UITableViewController {
 
+    var registrados = [Registrado]()
+    var arraytest = [String]()
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        cargarEmpleados()
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -19,28 +24,59 @@ class RegistradosTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
+    
+    private func cargarEmpleados(){
+        
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        let context = appDelegate.persistentContainer.viewContext
+        let usersFetch = NSFetchRequest<NSFetchRequestResult>(entityName: "Empleado")
+        
+        do {
+           
+            let fetchedUsers = try context.fetch(usersFetch) as! [Empleado]
+            
+            //print(type(of:fetchedUsers))
+            for empleado in fetchedUsers{
+                let reg = Registrado(nombre: empleado.nombre!)
+                if reg?.nombre != nil {
+                    registrados+=[reg!]
+                }
+            }
+            
+            
+        } catch {
+            fatalError("Failed to fetch employees: \(error)")
+        }
+    
+    }
 
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return registrados.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        // LLenar celdas
+        
+        let cellIdentifier = "EmpleadoTableViewCell"
+        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? EmpleadoTableViewCell  else {
+            fatalError("No se logro instancia de EmpleadoTableViewCell.")
+            
+        }
+        let reg = registrados[indexPath.row]
+        cell.nombre!.text = reg.nombre
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.

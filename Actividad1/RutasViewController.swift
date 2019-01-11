@@ -14,7 +14,11 @@ class RutasViewController: UIViewController {
     @IBOutlet weak var ruta1Button: UIButton!
     @IBOutlet weak var ruta2Button: UIButton!
     @IBOutlet weak var ruta3Button: UIButton!
+    @IBOutlet weak var tablaEmpleado: UITableView!
     
+    @IBAction func verRuta(_ sender: UIButton) {
+        print(sender.currentTitle)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -30,12 +34,7 @@ class RutasViewController: UIViewController {
             
             //print(type(of:fetchedUsers))
             for empleado in fetchedUsers{
-                print(empleado.nombre)
-                print(empleado.pass)
-                print(empleado.email)
-                print(empleado.fecha_nacimiento)
-                print(empleado.numero_empleado)
-                print(empleado.telefono)
+        
             }
             
             

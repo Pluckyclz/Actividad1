@@ -83,7 +83,7 @@ class MapaViewController: UIViewController {
                     print(placemarks[0].postalCode) // Codigo Posta
                     print(placemarks[0].subLocality) // Colonia
  */
-                    print(placemarks[0].postalCode)
+                   
                 }
             })
             
